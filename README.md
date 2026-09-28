@@ -123,7 +123,7 @@ See [docs/EVIDENCE_STATUS.md](docs/EVIDENCE_STATUS.md) before citing results.
 - Zijie Wang — `zijie.wang@dukekunshan.edu.cn`
 - COMSCI/ECON 206: Computational Microeconomics
 - Instructor: Professor Luyao Zhang
-- Team 7, Symposium Session A
+- Team 7, September 28 Symposium
 
 ## License
 
