@@ -1,6 +1,6 @@
 {
-  "tested_commit": "19034496fb220ffee220b404dbdee3a792882b16",
-  "python": "3.13.1",
+  "tested_commit": "726511c24480e1d95ed4a611672a214334679625",
+  "python": "3.12.2",
   "versions": {
     "numpy": "2.4.4",
     "pandas": "3.0.2",
