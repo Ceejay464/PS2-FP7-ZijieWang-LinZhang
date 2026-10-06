@@ -66,14 +66,14 @@ In the sensitivity simulation, moving signal following from 0 to 1 lowers collis
 
 ## Tested version and run steps
 
-**Tested source commit (local): `19034496fb220ffee220b404dbdee3a792882b16`.** The source notebook and runner at this commit were executed in a fresh Python process. The accompanying `PS2_Dynamic_Fee_Choice_history.bundle` preserves this commit. This hash is a local verification snapshot, not a claim that it already exists on GitHub. After uploading into the existing GitHub repository, rerun `python scripts/reproduce.py` at the resulting GitHub commit and replace this line with that full SHA and its commit link. Later commits in the local bundle record the generated outputs and documentation.
+**Tested commit:** `726511c24480e1d95ed4a611672a214334679625`. Running `python scripts/reproduce.py` at this commit reproduced all eighteen aggregate values from the updated notebook, with 900,000 main simulation rows and eleven figures. The inputs, seeds, environment, and output hashes are recorded in [the run manifest](results/run_manifest.json).
 
-Test environment: Python 3.13.1, NumPy 2.4.4, pandas 3.0.2, Matplotlib 3.10.8, IPython 9.15.0. See [run manifest](results/run_manifest.json) for the actual runtime version, source hash, seeds, checks, and CSV hashes. Dependencies are pinned in `requirements.txt`; use Python 3.13 for this tested environment.
+Test environment: Python 3.12.2, NumPy 2.4.4, pandas 3.0.2, Matplotlib 3.10.8, IPython 9.15.0. See [run manifest](results/run_manifest.json) for the actual runtime version, source hash, seeds, checks, and CSV hashes. Dependencies are pinned in `requirements.txt`; use Python 3.12 for this tested environment.
 
 From the repository root:
 
 ```bash
-python3.13 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 python scripts/reproduce.py
